@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource auth="Container"
+          driverClassName="com.mysql.jdbc.Driver"
+          factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+          maxTotal="50"
+          maxIdle="10"
+          maxWaitMillis="-1"
+          name="jdbc/TSDJ"
+          type="javax.sql.DataSource"
+          url="jdbc:mysql://127.0.0.1:3306/TSDJ"
+          username="Ogatir"
+          password="qaws200" />
+</Context>
